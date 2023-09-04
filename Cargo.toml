@@ -27,7 +27,7 @@ cxxbridge-macro = { version = "=1.0.107", path = "macro" }
 link-cplusplus = "1.0.9"
 
 [build-dependencies]
-cc = "1.0.79"
+cc = {git = "https://github.com/DRvader/cc-rs.git"}
 cxxbridge-flags = { version = "=1.0.107", path = "flags", default-features = false }
 
 [dev-dependencies]
